@@ -1,0 +1,10 @@
+version: "3"
+services:
+  Tarea:
+    container_name: tarea1
+    image: luisgil95crash/tareasa:01
+    #command: ['--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci','--default-authentication-plugin=mysql_native_password']
+    environment:
+      REPO: 
+    ports:
+      - 8080:3000
