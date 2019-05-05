@@ -10,13 +10,13 @@ app.listen(port, function ()
 app.get('/', function (req, res) 
 {
   res.send('<h1>Repositorio</h1>' + 
-  "<a href=\"/d\">" +
+  "<a href=\"/descarga\">" +
   "get(repositorio)" +
   "</a>")
 
 })
 
-app.get('/download',function(req,res)
+app.get('/descarga',function(req,res)
 {
   var str = process.env.REPO;
   var nombreRepo = str.split(".git");
