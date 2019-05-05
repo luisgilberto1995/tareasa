@@ -1,8 +1,8 @@
 version: "3"
 services:
   Tarea:
-    container_name: tarea1
-    image: luisgilberto1995/tareasa:01
+    container_name: tareasa
+    image: luisgil95crash/tareasa:01
     #command: ['--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci','--default-authentication-plugin=mysql_native_password']
     environment:
       REPO: https://github.com/luisgilberto1995/tareasa.git
